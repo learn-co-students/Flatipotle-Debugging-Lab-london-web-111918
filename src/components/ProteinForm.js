@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 
-const ProteinForm = () => {
+// class ProteinForm extends React.Component {
+const ProteinForm = (props) => {
   return (
     <Fragment>
       <h1><label htmlFor="protein">Protein</label></h1>
